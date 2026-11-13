@@ -7,6 +7,7 @@ An Amazon-inspired full-stack e-commerce application.
 
 - **frontend:** Vue.js
 - **backend:** Spring Boot
+- **backend:** Postgre SQL
 
 ## Features
 
