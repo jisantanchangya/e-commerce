@@ -1,12 +1,15 @@
 <script setup>
 import { Heart, MapPin, Search, ShoppingCart, User } from 'lucide-vue-next'
+import logo from '@/assets/images/logo/logo.png'
 </script>
 
 <template>
   <header class="site-header">
     <div class="navbar">
       <div class="brand-section">
-        <router-link class="brand" to="/" aria-label="My App home">NIHARIKA</router-link>
+        <router-link class="brand" to="/" aria-label="Niharika home">
+          <img class="brand-logo" :src="logo" alt="Niharika" />
+        </router-link>
       </div>
 
       <form class="search-form" role="search" @submit.prevent>
@@ -69,16 +72,24 @@ import { Heart, MapPin, Search, ShoppingCart, User } from 'lucide-vue-next'
   margin: 0 auto;
   padding: 1.3rem 2.25rem;
   color: #202020;
-  font-family: Arial, sans-serif;
+  font-family: inherit;
 }
 
 .brand {
   color: inherit;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-decoration: none;
   white-space: nowrap;
+}
+
+.brand-logo {
+  display: block;
+  width: 100px;
+  height: 50px;
+  background: #fcf9f9;
+  object-fit: contain;
 }
 
 .search-form {

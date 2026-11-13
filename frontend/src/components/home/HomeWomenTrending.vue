@@ -59,7 +59,7 @@ onUnmounted(() => {
 <template>
   <section class="women-trending" aria-labelledby="women-trending-title">
     <div class="trending-heading">
-      <h2 id="women-trending-title">Women's Trending</h2>
+      <h2 id="women-trending-title">WOMEN'S TRENDING</h2>
       <div class="carousel-controls">
         <button type="button" aria-label="Scroll to previous products" @click="movePrevious">
           <span aria-hidden="true">&larr;</span>
@@ -101,7 +101,7 @@ onUnmounted(() => {
 .trending-heading h2 {
   margin: 0;
   font-size: clamp(1.5rem, 2.5vw, 2rem);
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .carousel-controls {

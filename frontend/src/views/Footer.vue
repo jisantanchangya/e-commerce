@@ -50,7 +50,7 @@ const currentYear = new Date().getFullYear()
   padding: 4rem max(2.25rem, calc((100% - 1350px) / 2)) 1.25rem;
   background: #202020;
   color: #f7f5f2;
-  font-family: Arial, sans-serif;
+  font-family: inherit;
 }
 
 .footer-main {
